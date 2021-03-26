@@ -18,126 +18,62 @@ get_header();
 			<div class="swiper-slide">
 				<div class="gallery__wrap" >
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery1.jpg">
-							<img class="gallery__img" src="img/gallery1.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery2.jpg">
-							<img class="gallery__img" src="img/gallery2.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery3.jpg">
-							<img class="gallery__img" src="img/gallery3.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery4.jpg">
-							<img class="gallery__img" src="img/gallery4.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery5.jpg">
-							<img class="gallery__img" src="img/gallery5.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery6.jpg">
-							<img class="gallery__img" src="img/gallery6.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery7.jpg">
-							<img class="gallery__img" src="img/gallery7.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery8.jpg">
-							<img class="gallery__img" src="img/gallery8.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery9.jpg">
-							<img class="gallery__img" src="img/gallery9.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery10.jpg">
-							<img class="gallery__img" src="img/gallery10.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<div class="gallery__wrap" >
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery1.jpg">
-							<img class="gallery__img" src="img/gallery1.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery2.jpg">
-							<img class="gallery__img" src="img/gallery2.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery3.jpg">
-							<img class="gallery__img" src="img/gallery3.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery4.jpg">
-							<img class="gallery__img" src="img/gallery4.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery5.jpg">
-							<img class="gallery__img" src="img/gallery5.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery6.jpg">
-							<img class="gallery__img" src="img/gallery6.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery7.jpg">
-							<img class="gallery__img" src="img/gallery7.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery8.jpg">
-							<img class="gallery__img" src="img/gallery8.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery9.jpg">
-							<img class="gallery__img" src="img/gallery9.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery10.jpg">
-							<img class="gallery__img" src="img/gallery10.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
@@ -146,126 +82,62 @@ get_header();
 			<div class="swiper-slide">
 				<div class="gallery__wrap" >
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery1.jpg">
-							<img class="gallery__img" src="img/gallery1.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery2.jpg">
-							<img class="gallery__img" src="img/gallery2.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery3.jpg">
-							<img class="gallery__img" src="img/gallery3.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery4.jpg">
-							<img class="gallery__img" src="img/gallery4.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery5.jpg">
-							<img class="gallery__img" src="img/gallery5.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery6.jpg">
-							<img class="gallery__img" src="img/gallery6.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery7.jpg">
-							<img class="gallery__img" src="img/gallery7.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery8.jpg">
-							<img class="gallery__img" src="img/gallery8.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery9.jpg">
-							<img class="gallery__img" src="img/gallery9.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery10.jpg">
-							<img class="gallery__img" src="img/gallery10.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<div class="gallery__wrap" >
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery1.jpg">
-							<img class="gallery__img" src="img/gallery1.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery2.jpg">
-							<img class="gallery__img" src="img/gallery2.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery3.jpg">
-							<img class="gallery__img" src="img/gallery3.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery4.jpg">
-							<img class="gallery__img" src="img/gallery4.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery5.jpg">
-							<img class="gallery__img" src="img/gallery5.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery6.jpg">
-							<img class="gallery__img" src="img/gallery6.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery7.jpg">
-							<img class="gallery__img" src="img/gallery7.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery8.jpg">
-							<img class="gallery__img" src="img/gallery8.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery9.jpg">
-							<img class="gallery__img" src="img/gallery9.jpg">
-							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
-						</a>
-					</div>
-					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery10.jpg">
-							<img class="gallery__img" src="img/gallery10.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
@@ -274,62 +146,190 @@ get_header();
 			<div class="swiper-slide">
 				<div class="gallery__wrap" >
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery1.jpg">
-							<img class="gallery__img" src="img/gallery1.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery2.jpg">
-							<img class="gallery__img" src="img/gallery2.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery3.jpg">
-							<img class="gallery__img" src="img/gallery3.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery4.jpg">
-							<img class="gallery__img" src="img/gallery4.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery5.jpg">
-							<img class="gallery__img" src="img/gallery5.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery6.jpg">
-							<img class="gallery__img" src="img/gallery6.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery7.jpg">
-							<img class="gallery__img" src="img/gallery7.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery8.jpg">
-							<img class="gallery__img" src="img/gallery8.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery9.jpg">
-							<img class="gallery__img" src="img/gallery9.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
 					<div class="gallery__inner animate__animated" data-scroll>
-						<a class="gallery__link" data-fslightbox href="img/gallery10.jpg">
-							<img class="gallery__img" src="img/gallery10.jpg">
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="gallery__wrap" >
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="gallery__wrap" >
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery1.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery2.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery3.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery4.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery5.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery6.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery7.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery8.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery9.jpg">
+							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
+						</a>
+					</div>
+					<div class="gallery__inner animate__animated" data-scroll>
+						<a class="gallery__link" data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
+							<img class="gallery__img" src="<?php bloginfo('template_url'); ?>/assets/img/gallery10.jpg">
 							<span class="gallery__img-desc">Описание или пояснение к изображению.</span>
 						</a>
 					</div>
@@ -339,8 +339,8 @@ get_header();
 		<div class="slider-nav--row">
 			<div class="swiper-pagination"></div>
 			<div class="slider-arrow--row">
-				<img class="swiper-button-prev" src="img/arrow-left-long.svg" alt="Преведущий">
-				<img  class="swiper-button-next"src="img/arrow-right-long.svg" alt="Следующий">
+				<img class="swiper-button-prev" src="<?php bloginfo('template_url'); ?>/assets/img/arrow-left-long.svg" alt="Преведущий">
+				<img  class="swiper-button-next"src="<?php bloginfo('template_url'); ?>/assets/img/arrow-right-long.svg" alt="Следующий">
 			</div>
 		</div>
 	</div>

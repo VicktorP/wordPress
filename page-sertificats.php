@@ -18,37 +18,18 @@ get_header();
       <div class="swiper-slide">
         <div class="gallery__wrap gallery-certificates">
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat1.jpg">
-                <img src="img/sertificat1.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat2.jpg">
-                <img src="img/sertificat2.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat3.jpg">
-                <img src="img/sertificat3.jpg">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="gallery__wrap gallery-certificates">
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat1.jpg">
-                <img src="img/sertificat1.jpg">
-            </a>
-          </div>
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat2.jpg">
-                <img src="img/sertificat2.jpg">
-            </a>
-          </div>
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat3.jpg">
-                <img src="img/sertificat3.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
             </a>
           </div>
         </div>
@@ -56,37 +37,18 @@ get_header();
       <div class="swiper-slide">
         <div class="gallery__wrap gallery-certificates">
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat1.jpg">
-                <img src="img/sertificat1.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat2.jpg">
-                <img src="img/sertificat2.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat3.jpg">
-                <img src="img/sertificat3.jpg">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="gallery__wrap gallery-certificates">
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat1.jpg">
-                <img src="img/sertificat1.jpg">
-            </a>
-          </div>
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat2.jpg">
-                <img src="img/sertificat2.jpg">
-            </a>
-          </div>
-          <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat3.jpg">
-                <img src="img/sertificat3.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
             </a>
           </div>
         </div>
@@ -94,18 +56,56 @@ get_header();
       <div class="swiper-slide">
         <div class="gallery__wrap gallery-certificates">
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat1.jpg">
-                <img src="img/sertificat1.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat2.jpg">
-                <img src="img/sertificat2.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
             </a>
           </div>
           <div class="gallery__inner animate__animated" data-scroll>
-            <a data-fslightbox href="img/sertificat3.jpg">
-                <img src="img/sertificat3.jpg">
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="gallery__wrap gallery-certificates">
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+            </a>
+          </div>
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+            </a>
+          </div>
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="gallery__wrap gallery-certificates">
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat1.jpg">
+            </a>
+          </div>
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat2.jpg">
+            </a>
+          </div>
+          <div class="gallery__inner animate__animated" data-scroll>
+            <a data-fslightbox href="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/sertificat3.jpg">
             </a>
           </div>
         </div>
@@ -115,8 +115,8 @@ get_header();
       <div class="slider-nav--row slider-nav--right">
         <div class="swiper-pagination "></div>
         <div class="slider-arrow--row ">
-            <img src="img/arrow-left-long.svg" alt="left" class="swiper-button-prev">
-            <img src="img/arrow-right-long.svg" alt="right" class="swiper-button-next">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/arrow-left-long.svg" alt="left" class="swiper-button-prev">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/arrow-right-long.svg" alt="right" class="swiper-button-next">
         </div>
       </div>
     </div>

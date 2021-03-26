@@ -14,11 +14,12 @@
 						wp_nav_menu( [
 							'theme_location'  => 'footerMenu',
 							'menu'            => '', 
-							'container'       => 'ul', 
-							'container_class' => 'footer-menu__list', 
-							'menu_class'      => 'menu', 
+							'container'       => 'div', 
+							'container_class' => 'footer-menu', 
+							'menu_class'      => 'footer-menu__list', 
 							'echo'            => true,
 							'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
+							'add_li_class'  	=> 'footer-menu__item'
 						] );
 					?>
 				</div>

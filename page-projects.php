@@ -20,7 +20,7 @@ get_header();
           <div class="blog__wrap animate__animated" data-scroll>
             <div class="blog-pic">
               <a href="#" class="blog-link">
-                <img class="blog-img" src="img/article1.jpg" alt="Project">
+                <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article1.jpg" alt="Project">
               </a>
             </div>
             <div class="blog-text">
@@ -28,14 +28,14 @@ get_header();
                 <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="button button--normal">
                   Смотреть
-                  <img class="arrow"src="img/arrow.svg" alt="arrow">
+                  <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
                 </a>
             </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="blog-page.html" class="blog-link">
-              <img class="blog-img" src="img/article2.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article2.jpg" alt="Project">
             </a>
           </div>
           <div class="blog-text">
@@ -43,14 +43,14 @@ get_header();
             <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
             <a href="blog-page.html" class="button button--normal">
               Смотреть
-              <img class="arrow" src="img/arrow.svg" alt="arrow">
+              <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
             </a>
           </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="#" class="blog-link">
-              <img class="blog-img" src="img/article3.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article3.jpg" alt="Project">
             </a>
           </div>
             <div class="blog-text">
@@ -58,7 +58,7 @@ get_header();
               <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <a href="#" class="button button--normal">
                 Смотреть
-                <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow"></a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ get_header();
           <div class="blog__wrap animate__animated" data-scroll>
             <div class="blog-pic">
               <a href="#" class="blog-link">
-                <img class="blog-img" src="img/article1.jpg" alt="Project">
+                <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article1.jpg" alt="Project">
               </a>
             </div>
             <div class="blog-text">
@@ -76,14 +76,14 @@ get_header();
                 <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="button button--normal">
                   Смотреть
-                  <img class="arrow"src="img/arrow.svg" alt="arrow">
+                  <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
                 </a>
             </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="blog-page.html" class="blog-link">
-              <img class="blog-img" src="img/article2.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article2.jpg" alt="Project">
             </a>
           </div>
           <div class="blog-text">
@@ -91,14 +91,14 @@ get_header();
             <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
             <a href="blog-page.html" class="button button--normal">
               Смотреть
-              <img class="arrow" src="img/arrow.svg" alt="arrow">
+              <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
             </a>
           </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="#" class="blog-link">
-              <img class="blog-img" src="img/article3.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article3.jpg" alt="Project">
             </a>
           </div>
             <div class="blog-text">
@@ -106,7 +106,7 @@ get_header();
               <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <a href="#" class="button button--normal">
                 Смотреть
-                <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow"></a>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ get_header();
           <div class="blog__wrap animate__animated" data-scroll>
             <div class="blog-pic">
               <a href="#" class="blog-link">
-                <img class="blog-img" src="img/article1.jpg" alt="Project">
+                <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article1.jpg" alt="Project">
               </a>
             </div>
             <div class="blog-text">
@@ -124,14 +124,14 @@ get_header();
                 <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="button button--normal">
                   Смотреть
-                  <img class="arrow"src="img/arrow.svg" alt="arrow">
+                  <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
                 </a>
             </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="blog-page.html" class="blog-link">
-              <img class="blog-img" src="img/article2.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article2.jpg" alt="Project">
             </a>
           </div>
           <div class="blog-text">
@@ -139,14 +139,14 @@ get_header();
             <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
             <a href="blog-page.html" class="button button--normal">
               Смотреть
-              <img class="arrow" src="img/arrow.svg" alt="arrow">
+              <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
             </a>
           </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="#" class="blog-link">
-              <img class="blog-img" src="img/article3.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article3.jpg" alt="Project">
             </a>
           </div>
             <div class="blog-text">
@@ -154,7 +154,7 @@ get_header();
               <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <a href="#" class="button button--normal">
                 Смотреть
-                <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow"></a>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@ get_header();
           <div class="blog__wrap animate__animated" data-scroll>
             <div class="blog-pic">
               <a href="#" class="blog-link">
-                <img class="blog-img" src="img/article1.jpg" alt="Project">
+                <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article1.jpg" alt="Project">
               </a>
             </div>
             <div class="blog-text">
@@ -172,14 +172,14 @@ get_header();
                 <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="button button--normal">
                   Смотреть
-                  <img class="arrow"src="img/arrow.svg" alt="arrow">
+                  <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
                 </a>
             </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="blog-page.html" class="blog-link">
-              <img class="blog-img" src="img/article2.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article2.jpg" alt="Project">
             </a>
           </div>
           <div class="blog-text">
@@ -187,14 +187,14 @@ get_header();
             <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
             <a href="blog-page.html" class="button button--normal">
               Смотреть
-              <img class="arrow" src="img/arrow.svg" alt="arrow">
+              <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
             </a>
           </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="#" class="blog-link">
-              <img class="blog-img" src="img/article3.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article3.jpg" alt="Project">
             </a>
           </div>
             <div class="blog-text">
@@ -202,7 +202,7 @@ get_header();
               <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <a href="#" class="button button--normal">
                 Смотреть
-                <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow"></a>
             </div>
           </div>
         </div>
@@ -212,7 +212,7 @@ get_header();
           <div class="blog__wrap animate__animated" data-scroll>
             <div class="blog-pic">
               <a href="#" class="blog-link">
-                <img class="blog-img" src="img/article1.jpg" alt="Project">
+                <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article1.jpg" alt="Project">
               </a>
             </div>
             <div class="blog-text">
@@ -220,14 +220,14 @@ get_header();
                 <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="button button--normal">
                   Смотреть
-                  <img class="arrow"src="img/arrow.svg" alt="arrow">
+                  <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
                 </a>
             </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="blog-page.html" class="blog-link">
-              <img class="blog-img" src="img/article2.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article2.jpg" alt="Project">
             </a>
           </div>
           <div class="blog-text">
@@ -235,14 +235,14 @@ get_header();
             <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
             <a href="blog-page.html" class="button button--normal">
               Смотреть
-              <img class="arrow" src="img/arrow.svg" alt="arrow">
+              <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow">
             </a>
           </div>
         </div>
         <div class="blog__wrap animate__animated" data-scroll>
           <div class="blog-pic">
             <a href="#" class="blog-link">
-              <img class="blog-img" src="img/article3.jpg" alt="Project">
+              <img class="blog-img" src="<?php bloginfo('template_url'); ?>/assets/img/article3.jpg" alt="Project">
             </a>
           </div>
             <div class="blog-text">
@@ -250,7 +250,7 @@ get_header();
               <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <a href="#" class="button button--normal">
                 Смотреть
-                <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <img class="arrow" src="<?php bloginfo('template_url'); ?>/assets/img/arrow.svg" alt="arrow"></a>
             </div>
           </div>
         </div>
@@ -261,8 +261,8 @@ get_header();
     <div class="slider-nav--row">
       <div class="swiper-pagination "></div>
       <div class="slider-arrow--row ">
-        <img src="img/arrow-left-long.svg" alt="left" class="swiper-button-prev">
-        <img src="img/arrow-right-long.svg" alt="right" class="swiper-button-next">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/arrow-left-long.svg" alt="left" class="swiper-button-prev">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/arrow-right-long.svg" alt="right" class="swiper-button-next">
       </div>
     </div>
   </div>

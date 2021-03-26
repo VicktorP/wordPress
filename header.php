@@ -49,18 +49,10 @@
 					'menu'            => '', 
 					'container'       => 'div', 
 					'container_class' => 'menu header__menu', 
-					'container_id'    => '', //можно удалить
 					'menu_class'      => 'menu__list', 
-					'menu_id'         => '', //можно удалить
 					'echo'            => true,
-					'fallback_cb'     => 'wp_page_menu', //можно удалить
-					'before'          => '', //можно удалить
-					'after'           => '', //можно удалить
-					'link_before'     => '', //можно удалить
-					'link_after'      => '', //можно удалить
 					'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
-					'depth'           => 0, //можно удалить
-					'walker'          => '', //можно удалить
+					'add_li_class'  	=> 'menu__item'
 				] );
 			?>
 		</div>

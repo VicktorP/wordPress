@@ -133,7 +133,7 @@ get_header();
 <div class="section__modal">
   <div class="modal__ok-wrap">
       <div class="modal-ok">
-          <img src="../img/ok.svg" alt="" class="modal__img" />
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/ok.svg" alt="" class="modal__img" />
           <h5 class="modal__title">Спасибо !</h5>
           <p class="modal__text">
             Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
