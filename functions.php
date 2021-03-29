@@ -7,6 +7,8 @@
  * @package nurntonWP
  */
 
+require_once('inc/my-code.php');
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
@@ -51,10 +53,101 @@ if ( ! function_exists( 'nurntonwp_setup' ) ) :
 		register_nav_menus(
 			array(
 				'headerMenu' => esc_html__( 'Меню в шапке', 'nurntonwp' ),
-				'mobileMenu' => esc_html__( 'Меню мобильное', 'nurntonwp' ),
 				'footerMenu' => esc_html__( 'Меню в футере', 'nurntonwp' )
 			)
 		);
+
+		//хедерменю
+		// изменяем атрибут id у тега li 
+		add_filter( 'nav_menu_item_id', 'filter_menu_item_css_id_head', 10, 4 );
+		function filter_menu_item_css_id_head ( $menu_id, $item, $args, $depth) {
+			return $args->theme_location === 'headerMenu' ? '' : $menu_id;
+		}
+
+		// изменяем атрибут class у тега li
+		add_filter( 'nav_menu_css_class', 'filter_nav_menu_css_classes_head', 10, 4 );
+		function filter_nav_menu_css_classes_head ( $classes, $item, $args, $depth ) {
+			if ($args->theme_location === 'headerMenu' ) {
+				$classes = [
+					'menu__item'
+				];
+
+				//проверка активная ли страница
+				// if ( $item->current ) {
+				// 	$classes[] = 'menu-node--active';
+				// }		
+			}
+
+			return $classes;
+		}
+
+		//изменяем классы у вложенного ul
+		// add_filter( 'nav_menu_submenu_css_class', 'filter_nav_menu_submenu_css_class', 10, 3 );
+		// агтсешщт filter_nav_menu_submenu_css_class( $classes, $args, $depth ) {
+		// 	if ( $args->theme_location === 'headerMenu' ) {
+		// 		$classes = [
+		// 			'class 1',
+		// 			'class 2',
+		// 			'class 3'
+		// 		];
+		// 	}
+		// 	return $classes;
+		// }
+
+		//обработка классов у ссылок
+		add_filter( 'nav_menu_link_attributes', 'filter_nav_menu_link_attributes_head', 10, 4 );
+		function filter_nav_menu_link_attributes_head ( $atts, $item, $args, $depth ) {
+			if ($args->theme_location === 'headerMenu' ) {
+				$atts['class'] = 'menu__link';
+
+				if ( $item->current ) {
+					$atts['class'] .= ' menu__link-activ';
+				}
+			}
+
+			return $atts;
+		}
+
+		//футерменю
+		// изменяем атрибут id у тега li
+		add_filter( 'nav_menu_item_id', 'filter_menu_item_css_id_foot', 10, 4 );
+		function filter_menu_item_css_id_foot ( $menu_id, $item, $args, $depth) {
+			return $args->theme_location === 'footerMenu' ? '' : $menu_id;
+		}
+
+		// изменяем атрибут class у тега li
+		add_filter( 'nav_menu_css_class', 'filter_nav_menu_css_classes_foot', 10, 4 );
+		function filter_nav_menu_css_classes_foot ( $classes, $item, $args, $depth ) {
+			if ($args->theme_location === 'footerMenu' ) {
+				$classes = [
+					'footer-menu__item'
+				];
+
+				//проверка активная ли страница
+				// if ( $item->current ) {
+				// 	$classes[] = 'menu-node--active';
+				// }		
+			}
+
+			return $classes;
+		}
+
+		//обработка классов у ссылок
+		add_filter( 'nav_menu_link_attributes', 'filter_nav_menu_link_attributes_foot', 10, 4 );
+		function filter_nav_menu_link_attributes_foot ( $atts, $item, $args, $depth ) {
+			if ($args->theme_location === 'footerMenu' ) {
+				$atts['class'] = 'footer__info-link';
+
+				//проверка на активность ссылки
+				// if ( $item->current ) {
+				// 	$atts['class'] .= ' menu__link-activ';
+				// }
+			}
+
+			return $atts;
+		}
+
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -130,44 +223,6 @@ function nurntonwp_widgets_init() {
 }
 add_action( 'widgets_init', 'nurntonwp_widgets_init' );
 
-/**
- * Enqueue scripts and styles.
- */
-function nurntonwp_scripts() {	
-	wp_style_add_data( 'nurntonwp-style', 'rtl', 'replace' );
-
-	wp_enqueue_script( 'nurntonwp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-
-	//мой код
-	//подключение через ссылку
-	wp_enqueue_style('nurnton-swiper', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), null, null);
-	wp_enqueue_style('nurnton-animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', array(), null, null);
-	//подключение локально
-	wp_enqueue_style('nurnton-normalize', get_template_directory_uri() . '/assets/css/normalize.css', array(), null, null);
-	wp_enqueue_style('nurnton-hamburgers', get_template_directory_uri() . '/assets/css/hamburgers.min.css', array(), null, null);
-	wp_enqueue_style('nurnton-normalize', get_template_directory_uri() . '/assets/css/normalize.css', array(), null, null);
-	//основной файл стилей
-	wp_enqueue_style( 'nurntonwp-style', get_stylesheet_uri(), array(), _S_VERSION );
-
-	// jQuery
-	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js');
-	// Остальные скрипты
-	wp_enqueue_script( 'nurntonwp-inputmask', get_template_directory_uri() . '/assets/js/inputmask.min.js', array(), null, true );
-	wp_enqueue_script( 'nurntonwp-justValidate', get_template_directory_uri() . '/assets/js/just-validate.min.js', array(), null, true );
-	wp_enqueue_script( 'nurntonwp-swiper', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), null, true );
-	wp_enqueue_script( 'nurntonwp-slider', get_template_directory_uri() . '/assets/js/slider.js', array('nurntonwp-swiper'), null, true );
-	wp_enqueue_script( 'nurntonwp-scrollout', 'https://unpkg.com/scroll-out/dist/scroll-out.min.js', array(), null, true );
-	wp_enqueue_script( 'nurntonwp-form', get_template_directory_uri() . '/assets/js/form.js', array(), null, true );
-	wp_enqueue_script( 'nurntonwp-fslightbox', get_template_directory_uri() . '/assets/js/fslightbox.js', array('jquery'), null, true );
-	wp_enqueue_script( 'nurntonwp-fslightbox', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), null, true );
-
-}
-add_action( 'wp_enqueue_scripts', 'nurntonwp_scripts' );
 
 /**
  * Implement the Custom Header feature.

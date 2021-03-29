@@ -4,8 +4,8 @@
 			<div class="footer__top animate__animated" data-scroll>
 				<div class="logo footer__logo">
 					<!-- < ?php the_custom_logo(); ?> -->
-					<a href="index.html" class="logo__link">
-						<img src="img/logo-white.svg" alt="Logo" class="logo__img">
+					<a href="/" class="logo__link">
+						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo-white.svg" alt="Logo" class="logo__img">
 					</a>
 				</div>				
 				<div class="footer-menu" >
@@ -18,8 +18,7 @@
 							'container_class' => 'footer-menu', 
 							'menu_class'      => 'footer-menu__list', 
 							'echo'            => true,
-							'items_wrap'      => '<ul class="%2$s">%3$s</ul>',
-							'add_li_class'  	=> 'footer-menu__item'
+							'items_wrap'      => '<ul class="%2$s">%3$s</ul>'
 						] );
 					?>
 				</div>
