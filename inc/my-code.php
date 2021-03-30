@@ -42,7 +42,7 @@ add_action( 'wp_enqueue_scripts', 'nurntonwp_scripts' );
 
 // Изменение длины обрезаемого текста 
 add_filter( 'excerpt_length', function(){
-	return 40;
+	return 50;
 } );
 
 // Удаление конструкции [...] на конце
@@ -58,3 +58,6 @@ function new_excerpt_more( $more ){
 	return '<a href="'. get_permalink($post) . '">Читать дальше...</a>';
 }
 */
+
+// remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );

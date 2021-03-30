@@ -75,9 +75,7 @@ get_header();
             }
             // Возвращаем оригинальные данные поста. Сбрасываем $post.
             wp_reset_postdata();
-          ?>
-
-          
+          ?>         
 
 
           <div class="blog__wrap animate__animated" data-scroll>
